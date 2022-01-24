@@ -10,7 +10,7 @@ def index():
     
     
     text ="ulubione chipsy hydraulika" #open('xd.txt').read()
-
+    print(text)
     
     return render_template("index.html", text=text)
 
